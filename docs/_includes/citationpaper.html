@@ -1,0 +1,10 @@
+{% for post in posts %}
+<ul> {{ post.authorlist }}, {{ post.date | date: "%Y" }}: {{ post.title }}. <i> {{ post.journal }}</i>, 
+	{% if post.volume %} <b>{{ post.volume }}</b>,{% endif %} 
+	{% if post.pages %}{{ post.pages }},{% endif %}
+        {% if post.review %}{{ post.review }}{% endif %} 
+	{% if post.doi %} doi:<a href=http://dx.doi.org/{{ post.doi }}>{{ post.doi }}</a>{% endif %} 
+	{% if post.download %}, download at:<a href={{ post.download }}>{{ post.download }}</a>{% endif %}</ul>
+&nbsp
+{% endfor %}
+
