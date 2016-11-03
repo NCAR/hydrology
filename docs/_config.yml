@@ -6,8 +6,8 @@ groupname: Computational Hydrology
 description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate change assessments depend."
 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: '' #/Toolbox #important: start with /
-url: "https://ncar.github.io/Toolbox/"
+baseurl: ''  #important: start with /
+url: "https://ncar.github.io/Computational-Hydrology/"
 
 # Build settings
 markdown: kramdown
@@ -317,19 +317,16 @@ collaborators:
 
 # Sponsor information. Shown on Home and About pages.
 sponsors:
-  - name: NSF
-    img: NSF.jpg
-  - name: UCAR_NCAR
-    img: ucar_ncar.jpg
   - name: USACE
     img: USACE.jpg
   - name: Bureau
     img: USBR.jpg
-  - name: NOAA
-    img: NOAA.jpg
   - name: NASA
     img: NASA.jpg
-
+  - name: NOAA
+    img: NOAA.jpg
+  - name: NSF
+    img: NSF.jpg
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "IS this still here"
