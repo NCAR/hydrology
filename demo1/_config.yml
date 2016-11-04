@@ -147,7 +147,7 @@ members:
   - name: Joe Hamman
     position: Postdoctoral Researcher
     text: "tag line coming soon, tag line coming soon"
-    img: default.jpg
+    img: joehamman.jpg
     social:
       - title: envelope #use for email address
         url: mailto:jhamman at ucar.edu
@@ -252,13 +252,20 @@ collaborators:
     social:
       - title: link
         url: http://uw-hydro.github.io/current_member/michael_ou
-  - name: Idar Barstad
-    position: Uni Research Computing, Norway
-    text: Researcher
-    img: idarbarstad.jpg
+  - name: Rajagopalan Balaji
+    position: University of Colorado Boulder
+    text: Professor
+    img: balaji.jpg
+    social:
+      - title: link
+        url: http://www.colorado.edu/ceae/rajagopalan-balaji
+  - name: Sarah Baker
+    position: University of Colorado Boulder
+    text: PhD Candidate
+    img: sarahbaker.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:Idar.Barstad at uni.no
+        url: mailto:sabaker at usbr.gov
   - name: ChengCheng Huang
     position: Beijing Normal University
     text: PhD Candidate
@@ -314,7 +321,13 @@ collaborators:
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com 
-
+  - name: Idar Barstad
+    position: Uni Research Computing, Norway
+    text: Researcher
+    img: idarbarstad.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:Idar.Barstad at uni.no
 # Sponsor information. Shown on Home and About pages.
 sponsors:
   - name: USACE

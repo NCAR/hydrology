@@ -12,8 +12,8 @@
             <p><b>Download at: </b> <a href="{{post.download}}"> {{ post.download }}</a></p>
             <p><b>Described in: </b> <a href="{{ post.paperlink }}">{{ post.paperdescribe }}</a></p>
 
-	    {% if post.modellink %} <p><b>Model used: </b> <a href="{{ post.modellink | prepend: site.baseurl | prepend: "/models/" }}">{{ post.modellink }}</a></p>{% endif %}
-            {% if post.projectlink %}<p><b> Project details: </b> &nbsp  <a href="{{ post.projectlink | prepend: site.baseurl | prepend: "/projects/" }}">{{ post.projectlink }}</a></p>{% endif %}
+	    {% if post.modellink %} <p><b>Model used: </b> <a href="{{ post.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ post.modellink }}</a></p>{% endif %}
+            {% if post.projectlink %}<p><b> Project details: </b> &nbsp  <a href="{{ post.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ post.projectlink }}</a></p>{% endif %}
 	<div class="hline"></div>
 {% endfor %}
 

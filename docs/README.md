@@ -14,7 +14,7 @@ Website contributions
 *   publications to add?  template in _posts/papers/_2000-01-01_template.md (all you need to do is make a new file with your publication and add it to this folder)
 *   check project pages (others to add, e.g. GARD?, HEC HMS)
 *   check datasets, any to add? (e.g., WRF for Alaska)
-*   check/rewirte dataset descriptions
+*   check/rewrite dataset descriptions
 *   collaborators that need to be added/removed? (e.g., USGS folks)
 
 
@@ -24,7 +24,7 @@ Website contributions
 *   could combine citationdata.html and citationpaper.html, but if statements in data version not right (yet)
 *   fix error "ERROR /assets/img/modelchain@2x.png not found."
 *   fix tagline so wraps similarly to regardless of size
-
+*   find way to center sponsors
 
 ============
 
