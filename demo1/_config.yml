@@ -214,9 +214,9 @@ collaborators:
     social:
       - title: link
         url: http://www.usbr.gov/research/about/contact.html
-  - name: Kenneth Nowack
+  - name: Kenneth Nowak
     position: Bureau of Reclamation
-    img: kennowack.jpg
+    img: kennowak.jpg
     social:
       - title: envelope #use for email address
         url: mailto:knowak at usbr.gov
