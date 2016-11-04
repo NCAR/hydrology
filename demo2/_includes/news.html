@@ -1,0 +1,8 @@
+{% for post in posts %}
+	<div class="spacing"></div>
+            <h4>{{ post.title }}</h4>
+		{{ post.content }}
+	    <h5 style="color:gray"><i> posted by {{ post.author }},&nbsp{{ post.date | date: '%B %d, %Y' }}</i></h5>
+	<div class="hline"></div>
+{% endfor %}
+

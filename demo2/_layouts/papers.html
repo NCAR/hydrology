@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+{% include wrap.html %}    
+
+    {{ content }}
+
+<div class="container mtb">
+    <div class="row">
+
+    {% if site.tags.papersinreview %} <p><b>In Review</b></p> {% endif %}
+    {% assign posts = site.tags.papersinreview %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2017 %} <p><b>2017</b></p> {% endif %}
+    {% assign posts = site.tags.papers2017 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2016 %} <p><b>2016</b></p> {% endif %}
+    {% assign posts = site.tags.papers2016 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2015 %} <p><b>2015</b></p> {% endif %}
+    {% assign posts = site.tags.papers2015 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2014 %} <p><b>2014</b></p> {% endif %}
+    {% assign posts = site.tags.papers2014 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2013 %} <p><b>2013</b></p> {% endif %}
+    {% assign posts = site.tags.papers2013 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2012 %} <p><b>2012</b></p> {% endif %}
+    {% assign posts = site.tags.papers2012 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2011 %} <p><b>2011</b></p> {% endif %}
+    {% assign posts = site.tags.papers2011 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2010 %} <p><b>2010</b></p> {% endif %}
+    {% assign posts = site.tags.papers2010 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2009 %} <p><b>2009</b></p> {% endif %}
+    {% assign posts = site.tags.papers2009 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2008 %} <p><b>2008</b></p> {% endif %}
+    {% assign posts = site.tags.papers2008 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2007 %} <p><b>2007</b></p> {% endif %}
+    {% assign posts = site.tags.papers2007 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2006 %} <p><b>2006</b></p> {% endif %}
+    {% assign posts = site.tags.papers2006 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2005 %} <p><b>2005</b></p> {% endif %}
+    {% assign posts = site.tags.papers2005 %}
+    {% include citationpaper.html %}
+
+    </div>
+</div><! --/container -->
+
+{% include sponsors.html %}
