@@ -5,7 +5,6 @@ ref: storylines
 date:   2016-08-03 16:54:46
 categories:
 - projects
-- theme_met
 - theme_climate
 - theme_hydro
 img: hydrologic_storylines.jpg

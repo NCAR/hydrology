@@ -6,8 +6,7 @@ categories:
 - themes
 img: theme_hydrologic_modeling.jpg
 tags: [themes]
+ref: hydro
 ---
 
-# Hydrologic Modeling Research  <a name="hydrology"></a>
-
-Importance of modeling... < more about this research theme, coming soon >
+One of the four overarching research themes addressed in this collection of work. Importance of modeling... < more about this research theme, coming soon >
