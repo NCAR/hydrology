@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+
+            {{ content }}
+	    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">
+	    {% if page.img3 %}
+            	<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">
+	    {% endif %}
+
+        </div>
+
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Project Team</h4>
+            <div class="hline"></div>
+            <p>{{ page.teamline1 }}</p>
+            <p>{{ page.teamline2 }}</p>
+            {% if page.teamline3 %}<p>{{ page.teamline3 }}</p>{% endif %}
+            {% if page.teamline4 %}<p>{{ page.teamline4 }}</p>{% endif %}
+            {% if page.teamline5 %}<p>{{ page.teamline5 }}</p>{% endif %}
+            {% if page.teamline6 %}<p>{{ page.teamline6 }}</p>{% endif %}
+            {% if page.teamline7 %}<p>{{ page.teamline7 }}</p>{% endif %}
+            <p>{{ page.contacts }}</p>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Project Sponsors</h4>
+            <div class="hline"></div>
+            <p>{{ page.sponsors }}</p>
+	</div>
+
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>More Information At</h4>
+            <div class="hline"></div> 
+	&nbsp
+	<p> Website: &nbsp <a href="{{ page.website }}">{{ page.website }}</a></p> 
+	<p> Factsheets: &nbsp 
+        <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet1 }}"> 1-Pager</a> &nbsp
+        <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
+
+        <!-- if statements below are not ideal, should find way to add variable into assign--> 
+        {% if page.ref == "mizuRoute" %}
+            {% assign posts = site.tags.paper_mizuRoute %}
+	{% endif %}
+	{% if page.ref == "SUMMA" %}
+            {% assign posts = site.tags.paper_SUMMA %}
+        {% endif %}
+        {% if page.ref == "GMET" %}
+            {% assign posts = site.tags.paper_GMET %}
+        {% endif %}
+        {% if page.ref == "OCONUS" %}
+            {% assign posts = site.tags.paper_OCONUS %}
+        {% endif %}
+        {% if page.ref == "ICAR" %}
+            {% assign posts = site.tags.paper_ICAR %}
+        {% endif %}
+        {% if page.ref == "MPR-flex" %}
+            {% assign posts = site.tags.paper_MPRflex %}
+        {% endif %}
+        {% if page.ref == "storylines" %}
+            {% assign posts = site.tags.paper_storylines %}
+        {% endif %}
+        {% if page.ref == "SHARP" %}
+            {% assign posts = site.tags.paper_SHARP %}
+        {% endif %}
+        {% if posts %} <p> Papers: </p> {% endif %}
+        {% include citation.html %}
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
