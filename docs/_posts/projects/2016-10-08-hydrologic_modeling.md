@@ -5,6 +5,9 @@ ref: SUMMA
 date:   2016-08-03 16:55:00
 categories:
 - projects
+- theme_hydro
+- theme_stream
+- theme_climate
 img: hydrologic_modeling.jpg
 img2: summa.png
 factsheet1: comingsoon.pdf
@@ -17,7 +20,7 @@ teamline3: "U.S. Army Corps of Engineers: Jeff Arnold"
 teamline4: "Bureau of Reclamation: Levi Brekke"
 contacts: "Contact: Martyn Clark - mclark@ucar.edu | Julie Vano – jvano@ucar.edu"
 modellink: SUMMA
-tags: [projects]
+tags: [projects, theme_hydrologic_modeling]
 ---
 
 # Improving Hydrologic Modeling for Climate Impact Assessments
