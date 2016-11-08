@@ -7,16 +7,7 @@ Website contributions
 *   want to migrate it to https://github.com/NCAR/computational-hydrology instead? (would match https://ral.ucar.edu/hap/computational-hydrology)
 
 ###Contributors, please consider the following:
-
-*   tagline by photo, ok?
-*   website/email address ok?
-*   photo ok?
-*   publications to add?  template in _posts/papers/_2000-01-01_template.md (all you need to do is make a new file with your publication and add it to this folder)
-*   check project pages (others to add, e.g. GARD?, HEC HMS)
-*   check datasets, any to add? (e.g., WRF for Alaska)
-*   check/rewrite dataset descriptions
 *   collaborators that need to be added/removed? (e.g., USGS folks)
-
 
 ### Script/design improvements
 *   Double check that design is okay at different widths (e.g., data, research pages don’t do well when wide, might want to force figures to be a certain size?)
