@@ -5,9 +5,6 @@ ref: mizuRoute
 date:   2016-08-01 16:54:46
 categories:
 - projects
-- theme_hydro
-- theme_stream
-- theme_climate
 img: streamflow_routing.jpg
 img2: mizuRoute.png
 factsheet1: mizuRoute_1pg.pdf

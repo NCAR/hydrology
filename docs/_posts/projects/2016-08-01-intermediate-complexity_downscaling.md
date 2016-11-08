@@ -5,8 +5,6 @@ ref: ICAR
 date:   2016-08-01 16:55:00
 categories:
 - projects
-- theme_climate
-- theme_met
 img: intermediate-complexity_downscaling.jpg
 img2: icar.png
 factsheet1: comingsoon.pdf

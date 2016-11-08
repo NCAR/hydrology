@@ -5,8 +5,6 @@ ref: GMET
 date:   2016-08-01 16:54:46
 categories:
 - projects
-- theme_met
-- theme_stream
 img: meteorological_datasets.jpg
 img2: gmet.png
 factsheet1: gmet_1pg.pdf

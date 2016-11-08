@@ -5,8 +5,6 @@ ref: MPR-flex
 date:   2016-04-25 16:54:46
 categories:
 - projects
-- theme_hydro
-- theme_stream
 img: parameter_estimation.jpg
 img2: mpr-flex.png
 factsheet1: comingsoon.pdf

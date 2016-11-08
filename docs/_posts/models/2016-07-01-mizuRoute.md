@@ -5,8 +5,6 @@ ref: mizuRoute
 date:   2016-08-01 16:54:46
 categories:
 - models
-- mtheme_hydro
-- mtheme_stream
 img: mizuRoute.jpg
 img2: mizuRoute.png
 projectlink: streamflow_routing

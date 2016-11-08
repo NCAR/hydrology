@@ -5,7 +5,6 @@ ref: SHARP
 date:   2016-08-03 16:54:46
 categories:
 - projects
-- theme_stream
 img: streamflow_forecasting.jpg
 img2: sharp.png
 img3: sharp2.png
