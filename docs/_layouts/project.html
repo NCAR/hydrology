@@ -11,9 +11,8 @@ layout: default
 
             {{ content }}
 	    {% if page.img2 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">{% endif %}
-	    {% if page.img3 %}
-            	<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">
-	    {% endif %}
+	    {% if page.img3 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">{% endif %}
+            {% if page.img4 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img4 }}" alt="">{% endif %}
 
         </div>
 

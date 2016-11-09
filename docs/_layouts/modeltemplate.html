@@ -10,11 +10,9 @@ layout: default
             <div class="spacing"></div>
 
             {{ content }}
-	    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">
-	    {% if page.img3 %}
-            	<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">
-	    {% endif %}
-
+	    {% if page.img2 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">{% endif %}
+	    {% if page.img3 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">{% endif %}
+            {% if page.img4 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img4 }}" alt="">{% endif %}
         </div>
 
 	<div class="col-lg-4 col-lg-offset-1">
