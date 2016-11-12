@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Intermediate-Complexity Downscaling"
-ref: ICAR
+ref: downscale
 date:   2016-08-01 16:55:00
 categories:
 - projects

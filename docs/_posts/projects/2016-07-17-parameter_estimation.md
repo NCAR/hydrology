@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Parameter Estimation"
-ref: MPR-flex
+ref: params
 date:   2016-04-25 16:54:46
 categories:
 - projects

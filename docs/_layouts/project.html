@@ -44,68 +44,36 @@ layout: default
 	&nbsp
 	{% if page.modellink %} <p> Model information: &nbsp  <a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}
 	{% if page.projectlink %}<p> Project information:  &nbsp  <a href="{{ page.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ page.projectlink }}</a></p>{% endif %}
-	{% if page.modelhomepage %} <p> Model homepage: &nbsp <a href="{{ page.modelhomepage }}">{{ page.modelhomepage }}</a></p> {% endif %}
 
-	{% if page.factsheet1 %}
 	<p> Factsheets: &nbsp 
         <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet1 }}"> 1-Pager</a> &nbsp
         <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
-	{% endif %}
 
         <!-- if statements below are not ideal, should find way to add variable into assign--> 
-        {% if page.ref == "mizuRoute" %}
-            {% assign posts = site.tags.paper_mizuRoute %}
-	{% endif %}
-	{% if page.ref == "SUMMA" %}
-            {% assign posts = site.tags.paper_SUMMA %}
-        {% endif %}
-        {% if page.ref == "GMET" %}
-            {% assign posts = site.tags.paper_GMET %}
-        {% endif %}
-        {% if page.ref == "OCONUS" %}
-            {% assign posts = site.tags.paper_OCONUS %}
-        {% endif %}
-        {% if page.ref == "ICAR" %}
-            {% assign posts = site.tags.paper_ICAR %}
-        {% endif %}
-        {% if page.ref == "MPR-flex" %}
-            {% assign posts = site.tags.paper_MPRflex %}
-        {% endif %}
-        {% if page.ref == "storylines" %}
-            {% assign posts = site.tags.paper_storylines %}
-        {% endif %}
-        {% if page.ref == "SHARP" %}
-            {% assign posts = site.tags.paper_SHARP %}
-        {% endif %}
+        {% if page.ref == "streamroute" %}{% assign posts = site.tags.paper_streamroute %}{% endif %}
+	{% if page.ref == "hydromodel" %}{% assign posts = site.tags.paper_hydromodel %}{% endif %}
+        {% if page.ref == "met" %}{% assign posts = site.tags.paper_met %}{% endif %}
+        {% if page.ref == "OCONUS" %}{% assign posts = site.tags.paper_OCONUS %}{% endif %}
+        {% if page.ref == "downscale" %}{% assign posts = site.tags.paper_downscale %}{% endif %}
+        {% if page.ref == "params" %}{% assign posts = site.tags.paper_params %}{% endif %}
+        {% if page.ref == "storylines" %}{% assign posts = site.tags.paper_storylines %}{% endif %}
+        {% if page.ref == "streamforecast" %}{% assign posts = site.tags.paper_streamforecast %}{% endif %}
+
         {% if posts %} <p> Papers: </p> {% endif %}
         {% include citationpaper.html %}
 
-        {% if page.ref == "mizuRoute" %}
-            {% assign posts = site.tags.datasets_mizuRoute %}
-        {% endif %}
-        {% if page.ref == "SUMMA" %}
-            {% assign posts = site.tags.datasets_SUMMA %}
-        {% endif %}
-        {% if page.ref == "GMET" %}
-            {% assign posts = site.tags.datasets_GMET %}
-        {% endif %}
-        {% if page.ref == "OCONUS" %}
-            {% assign posts = site.tags.datasets_OCONUS %}
-        {% endif %}
-        {% if page.ref == "ICAR" %}
-            {% assign posts = site.tags.datasets_ICAR %}
-        {% endif %}
-        {% if page.ref == "MPR-flex" %}
-            {% assign posts = site.tags.datasets_MPRflex %}
-        {% endif %}
-        {% if page.ref == "storylines" %}
-            {% assign posts = site.tags.datasets_storylines %}
-        {% endif %}
-        {% if page.ref == "SHARP" %}
-            {% assign posts = site.tags.datasets_SHARP %}
-        {% endif %}
+        <!-- if statements below are not ideal, should find way to add variable into assign-->
+        {% if page.ref == "streamroute" %}{% assign posts = site.tags.dataset_streamroute %}{% endif %}
+        {% if page.ref == "hydromodel" %}{% assign posts = site.tags.dataset_hydromodel %}{% endif %}
+        {% if page.ref == "met" %}{% assign posts = site.tags.dataset_met %}{% endif %}
+        {% if page.ref == "OCONUS" %}{% assign posts = site.tags.dataset_OCONUS %}{% endif %}
+        {% if page.ref == "downscale" %}{% assign posts = site.tags.dataset_downscale %}{% endif %}
+        {% if page.ref == "params" %}{% assign posts = site.tags.dataset_params %}{% endif %}
+        {% if page.ref == "storylines" %}{% assign posts = site.tags.dataset_storylines %}{% endif %}
+        {% if page.ref == "streamforecast" %}{% assign posts = site.tags.dataset_streamforecast %}{% endif %}
 	
 	{% if posts %} <p> Datasets: </p> {% endif %}
+
         {% include citationdata.html %}
         </div>
 

@@ -3,6 +3,7 @@ layout: default
 title: "Gridded Ensemble Precipitation and Temperature over the Contiguous United States"
 releasedate: 2015, last update Feb 29, 2016
 authorlist: "Newman, A.J., M.P. Clark, J. Craig, B. Nijssen, A.W. Wood, and E.D. Gutmann"
+ref: met
 date: 2016-08-02 10:46:43
 doi: 10.5065/D6TH8JR2
 download: http://dx.doi.org/10.5065/D6TH8JR2
@@ -10,7 +11,7 @@ paperdescribe: "Newman et al., JHM, 2015"
 paperlink: http://dx.doi.org/10.1175/JHM-D-15-0026.1
 modellink: GMET
 projectlink: meteorological_datasets
-tags: [datasets,datasets_GMET]
+tags: [datasets,dataset_met]
 categories:
 - data
 ---
