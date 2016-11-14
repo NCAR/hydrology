@@ -92,7 +92,7 @@ members:
         url: https://staff.ucar.edu/users/jvano
   - name: Grey Nearing
     position: Project Scientist I
-    text: tag line coming soon, tag line coming soon
+    text: model evaluation, diagnostics, and uncertainty
     img: default.jpg
     social:
       - title: envelope #use for email address
@@ -137,7 +137,7 @@ members:
         url: http://www.keithmusselman.com
   - name: Flavio Lehner
     position: Postdoctoral Researcher
-    text: "tag line coming soon, tag line coming soon"
+    text: "tag line coming, tag line coming soon, tag line coming soon"
     img: flaviolehner.jpg
     social:
       - title: envelope #use for email address
@@ -146,7 +146,7 @@ members:
         url: http://www.climate.unibe.ch/~lehner/
   - name: Joe Hamman
     position: Postdoctoral Researcher
-    text: "tag line coming soon, tag line coming soon"
+    text: "tag line coming, tag line coming soon, tag line coming soon"
     img: joehamman.jpg
     social:
       - title: envelope #use for email address
@@ -155,7 +155,7 @@ members:
         url: https://staff.ucar.edu/users/jhamman
   - name: Kevin Sampson
     position: Associate Scientist III
-    text: "tag line coming soon, tag line coming soon"
+    text:
     img: kevin.jpg
     social:
       - title: envelope #use for email address
@@ -164,7 +164,7 @@ members:
         url: https://staff.ucar.edu/users/ksampson
   - name: Andrew Monaghan
     position: Scientist III
-    text: "tag line coming soon, tag line coming soon"
+    text:
     img: andymonaghan.jpg
     social:
       - title: envelope #use for email address
@@ -173,7 +173,7 @@ members:
         url: https://staff.ucar.edu/users/monaghan
   - name: Trude Eidhammer
     position: Project Scientist II
-    text: "tag line coming soon, tag line coming soon"
+    text:
     img: trudeeidhammer.jpg
     social:
       - title: envelope #use for email address
@@ -182,7 +182,7 @@ members:
         url: https://staff.ucar.edu/users/trude
   - name: Lulin Xue
     position: Project Scientist II
-    text: "tag line coming soon, tag line coming soon"
+    text:
     img: lulinxue.jpg
     social:
       - title: envelope #use for email address
@@ -191,7 +191,7 @@ members:
         url: https://staff.ucar.edu/users/xuel
   - name: Roy Rasmussen
     position: Senior Scientist Section Head
-    text: "tag line coming soon, tag line coming soon"
+    text:
     img: roy.jpg
     social:
       - title: envelope #use for email address
