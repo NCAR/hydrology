@@ -3,7 +3,7 @@
 # Site settings
 title: COMPUTATIONAL HYDROLOGY 
 groupname: Computational Hydrology
-description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate change assessments depend."
+description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate assessments depend."
 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: ''  #important: start with /

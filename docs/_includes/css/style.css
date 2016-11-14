@@ -195,6 +195,12 @@ a:focus {
 	margin-bottom: 30px;
 }
 
+.mtbc {
+        margin-top: 20px;
+        margin-bottom: 5px;
+}
+
+
 .mb {
 	margin-bottom: 60px;
 }
@@ -219,7 +225,7 @@ a:focus {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -251,8 +257,8 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 10px;
+	margin-bottom: 40px;
 	display: block;
 	text-align: center
 }
