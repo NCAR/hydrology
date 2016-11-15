@@ -137,7 +137,7 @@ members:
         url: http://www.keithmusselman.com
   - name: Flavio Lehner
     position: Postdoctoral Researcher
-    text: "Hydroclimatic changes and their implications for water resources"
+    text: "hydroclimatic changes and their implications for water resources"
     img: flaviolehner.jpg
     social:
       - title: envelope #use for email address

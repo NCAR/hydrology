@@ -10,7 +10,7 @@ img2: summa.png
 factsheet1: comingsoon.pdf
 factsheet2: summa_factsheet_2016_10.pdf
 thumb: summa.jpg
-sponsors: National Science Foundation, U.S. Army Corps of Engineers, Bureau of Reclamation, NOAA, NASA (check)
+sponsors: National Science Foundation, U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Grey Nearing, Andy Newman, Naoki Mizukami, Nans Addor, Andy Wood, Ethan Gutmann"
 teamline2: "University of Washington: Bart Nijssen, Jessica Lundquist, Michael Ou"
 teamline3: "U.S. Army Corps of Engineers: Jeff Arnold"

@@ -9,7 +9,7 @@ img: intermediate-complexity_downscaling.jpg
 img2: icar.png
 factsheet1: comingsoon.pdf
 factsheet2: icar_factsheet_2016_10.pdf
-sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation, National Science Foundation (check)
+sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation, National Science Foundation
 teamline1: "NCAR: Ethan Gutmann (PI), Martyn Clark, Trude Eidhammer, Roy Rasmussen"
 teamline2: "Uni Research (Bergen, Norway):  Idar Bartstad"
 teamline3: "U.S. Army Corps of Engineers: Jeff Arnold"
