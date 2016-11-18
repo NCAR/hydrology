@@ -8,7 +8,7 @@ categories:
 img: streamflow_routing.jpg
 img2: mizuRoute.png
 factsheet1: mizuRoute_1pg.pdf
-factsheet2: mizuRoute_factsheet_2016_10.pdf
+factsheet2: mizuroute_factsheet_2016_10.pdf
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Naoki Mizukami"
 teamline2: "University of Washington: Bart Nijssen"
