@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include wrap.html %}    
+
+    {{ content }}
+
+<div class="container mtb">
+    <div class="row">
+
+    {% assign posts = site.tags.news %}
+    {% include news.html %}
+
+    </div>
+</div><! --/container -->
+
+{% include sponsors.html %}

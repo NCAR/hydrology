@@ -93,7 +93,7 @@ members:
   - name: Grey Nearing
     position: Project Scientist I
     text: model evaluation, diagnostics, and uncertainty
-    img: default.jpg
+    img: greynearing.jpg
     social:
       - title: envelope #use for email address
         url: mailto:grey at ucar.edu

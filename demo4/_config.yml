@@ -1,0 +1,351 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: COMPUTATIONAL HYDROLOGY 
+groupname: Computational Hydrology
+description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate assessments depend."
+
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: ''  #important: start with /
+url: "https://ncar.github.io/Computational-Hydrology/"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#014f7e" #"#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#232b34"  #"#384452" #"#33004D"
+  link: "#016fb1" #"#428bca"
+  link_hover: "#016fb1" #"#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: facebook
+    url:
+  - title: twitter
+    url: 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 3450 Mitchell Ln
+    - Boulder, Colorado 80301
+    - United States
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Martyn Clark
+    position: Lead, Senior Scientist
+    text: "numerical modeling and prediction of hydrologic processes"
+    img: martyn.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:mclark at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/mclark
+  - name: Andy Wood
+    position: Lead, Project Scientist III
+    text: "hydrologic modeling applications: stream forecasting, climate change"
+    img: andywood.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:andywood at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/andywood
+  - name: Ethan Gutmann
+    position: Lead, Project Scientist II
+    text: climate downscaling, hydrologic processes, and alpine snowpack
+    img: ethan.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:gutmann at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/gutmann
+  - name: Andrew Newman
+    position: Project Scientist I
+    text: observations, uncertainty, land-surface and mesoscale modeling 
+    img: andynewman.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:anewman at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/anewman
+  - name: Julie Vano
+    position: Project Scientist I
+    text: connecting climate science and water resource applications
+    img: julie.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:jvano at ucar.edu
+      - title: link 
+        url: https://staff.ucar.edu/users/jvano
+  - name: Grey Nearing
+    position: Project Scientist I
+    text: model evaluation, diagnostics, and uncertainty
+    img: default.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:grey at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/browse/people/29259
+  - name: Naoki Mizukami
+    position: Associate Scientist III
+    text: "large scale hydrologic modeling: applications, climate impacts"
+    img: naoki.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:mizukami at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/mizukami
+  - name: Pablo Mendoza
+    position: Postdoctoral Researcher
+    text: "hydrologic modeling applications: stream forecasting, climate change"
+    img: pablo.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:pmendoza at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/pmendoza
+  - name: Nans Addor
+    position: Postdoctoral Researcher
+    text: "hydrological modeling under present and future climate"
+    img: nans.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:naddor at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/browse/people/28687
+  - name: Keith Musselman
+    position: Postdoctoral Researcher
+    text: "observation and prediction of cold region hydrological processes"
+    img: keith.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:kmussel at ucar.edu
+      - title: link
+        url: http://www.keithmusselman.com
+  - name: Flavio Lehner
+    position: Postdoctoral Researcher
+    text: "hydroclimatic changes and their implications for water resources"
+    img: flaviolehner.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:flehner at ucar.edu
+      - title: link
+        url: http://www.climate.unibe.ch/~lehner/
+  - name: Joe Hamman
+    position: Postdoctoral Researcher
+    text: "large scale hydrologic modeling of present and future climate"
+    img: joehamman.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:jhamman at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/jhamman
+  - name: Kevin Sampson
+    position: Associate Scientist III
+    text:
+    img: kevin.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:ksampson at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/ksampson
+  - name: Andrew Monaghan
+    position: Scientist III
+    text:
+    img: andymonaghan.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:monaghan at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/monaghan
+  - name: Trude Eidhammer
+    position: Project Scientist II
+    text:
+    img: trudeeidhammer.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:trude at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/trude
+  - name: Lulin Xue
+    position: Project Scientist II
+    text:
+    img: lulinxue.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:xuel at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/xuel
+  - name: Roy Rasmussen
+    position: Senior Scientist Section Head
+    text:
+    img: roy.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:rasmus at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/rasmus
+
+
+# Collaborator information. Shown on About page.
+collaborators:
+  - name: Jeff Arnold
+    position: U.S. Army Corps of Engineers
+    img: jeffarnold.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:Jeffrey.R.Arnold at usace.army.mil
+  - name: Levi Brekke
+    position: Bureau of Reclamation
+    img: levibrekke.jpg
+    social:
+      - title: link
+        url: http://www.usbr.gov/research/about/contact.html
+  - name: Kenneth Nowak
+    position: Bureau of Reclamation
+    img: kennowak.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:knowak at usbr.gov
+      - title: link
+        url: http://www.usbr.gov/research/about/contact.html
+  - name: Bart Nijssen
+    position: University of Washington
+    text: Research Professor
+    img: bartnijssen.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:nijssen at uw.edu
+      - title: link
+        url: http://uw-hydro.github.io/current_member/bart_nijssen
+  - name: Elizabeth Clark
+    position: University of Washington
+    text: PhD Candidate
+    img: elizabethclark.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:eclark2 at uw.edu
+  - name: Jessica Lundquist
+    position: University of Washington
+    text: Associate Professor
+    img: jessicalundquist.jpg
+    social:
+      - title: link
+        url: http://depts.washington.edu/mtnhydr/people/
+  - name: Michael Ou
+    position: University of Washington
+    text: Postdoc
+    img: michaelou.jpg
+    social:
+      - title: link
+        url: http://uw-hydro.github.io/current_member/michael_ou
+  - name: Rajagopalan Balaji
+    position: University of Colorado Boulder
+    text: Professor
+    img: balaji.jpg
+    social:
+      - title: link
+        url: http://www.colorado.edu/ceae/rajagopalan-balaji
+  - name: Sarah Baker
+    position: University of Colorado Boulder
+    text: PhD Candidate
+    img: sarahbaker.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:sabaker at usbr.gov
+  - name: ChengCheng Huang
+    position: Beijing Normal University
+    text: PhD Candidate
+    img: chengchenghuang.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: Tom Giambelucca
+    position: University of Hawaii
+    img: tomgiambelucca.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:thomas at hawaii.edu
+  - name: Ryan Longman
+    position: University of Hawaii
+    img: ryanlongman.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:rlongman at hawaii.edu
+  - name: Jessica Cherry
+    position: University of Alaska
+    img: jessicacherry.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:jecherry2 at alaska.edu
+  - name: Matthew Strum
+    position: University of Alaska
+    img: matthewstrum.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: Glen Liston
+    position: Colorado State University
+    img: glenliston.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:Glen.Liston at colostate.edu
+  - name: Luis Samaniego
+    position: UFZ Helmholz Institute, Germany
+    img: default.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: Olda Rakevic
+    position: UFZ Helmholz Institute, Germany
+    img: default.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+  - name: Stephan Thober
+    position: UFZ Helmholz Institute, Germany
+    img: default.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com 
+  - name: Idar Barstad
+    position: Uni Research Computing, Norway
+    text: Researcher
+    img: idarbarstad.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:Idar.Barstad at uni.no
+# Sponsor information. Shown on Home and About pages.
+sponsors:
+  - name: USACE
+    img: USACE.jpg
+  - name: Bureau
+    img: USBR.jpg
+  - name: NASA
+    img: NASA.jpg
+  - name: NOAA
+    img: NOAA.jpg
+  - name: NSF
+    img: NSF.jpg
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "IS this still here"
+
+# Testimonial content. Shown on Home and About page. 
+#testimonial:
+#    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+#    author: Marcel Newman
+#    position: WEB DESIGNER - BLACKTIE.CO

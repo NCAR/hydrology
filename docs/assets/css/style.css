@@ -179,7 +179,7 @@ a:focus {
 	cursor: pointer;
 	font-weight: normal;
 	line-height: normal;
-	margin: 0 0 1.25rem;
+	margin: 0 0 .25rem;
 	text-decoration: none;
 	text-align: center;
 	display: inline-block;
@@ -290,7 +290,7 @@ a:focus {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
+	margin:5px 5px 5px 5px;
 	font-size:13px;
 }
 
