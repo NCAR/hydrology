@@ -53,6 +53,18 @@ layout: default
         {% if page.ref == "SHARP" %}{% assign posts = site.tags.paper_SHARP %}{% endif %}
 
         {% if posts %} <p> Papers: </p> {% endif %}
+        {% include citationpaper.html %}
+
+        <!-- if statements below are not ideal, should find way to add variable into assign-->
+        {% if page.ref == "mizuRoute" %}{% assign posts = site.tags.dataset_mizuRoute %}{% endif %}
+        {% if page.ref == "SUMMA" %}{% assign posts = site.tags.dataset_SUMMA %}{% endif %}
+        {% if page.ref == "GMET" %}{% assign posts = site.tags.dataset_GMET %}{% endif %}
+        {% if page.ref == "ICAR" %}{% assign posts = site.tags.dataset_ICAR %}{% endif %}
+        {% if page.ref == "MPR-flex" %}{% assign posts = site.tags.dataset_MPR-flex %}{% endif %}
+        {% if page.ref == "SHARP" %}{% assign posts = site.tags.dataset_SHARP %}{% endif %}
+
+        {% if posts %} <p> Datasets: </p> {% endif %}
+
         {% include citationdata.html %}
         </div>
 

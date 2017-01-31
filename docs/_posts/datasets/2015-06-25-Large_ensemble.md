@@ -11,7 +11,7 @@ paperdescribe: "Newman et al., JHM, 2015"
 paperlink: http://dx.doi.org/10.1175/JHM-D-15-0026.1
 modellink: GMET
 projectlink: meteorological_datasets
-tags: [datasets,dataset_met]
+tags: [datasets,dataset_met, dataset_GMET]
 categories:
 - data
 ---
