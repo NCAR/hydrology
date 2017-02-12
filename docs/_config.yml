@@ -271,20 +271,22 @@ collaborators:
     text: PhD Candidate
     img: chengchenghuang.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: link #use for email address
+        url: https://www.researchgate.net/profile/Chengcheng_Huang2
   - name: Tom Giambelucca
     position: University of Hawaii
     img: tomgiambelucca.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:thomas at hawaii.edu
+      - title: link
+        url: http://www.geography.hawaii.edu/faculty/tomgiambelluca.html
   - name: Ryan Longman
     position: University of Hawaii
     img: ryanlongman.jpg
     social:
       - title: envelope #use for email address
         url: mailto:rlongman at hawaii.edu
+      - title: link
+        url: https://sites.google.com/a/hawaii.edu/rlongman/
   - name: Jessica Cherry
     position: University of Alaska
     img: jessicacherry.jpg
@@ -295,8 +297,8 @@ collaborators:
     position: University of Alaska
     img: matthewsturm.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: link
+        url: http://www.gi.alaska.edu/directory/matthew-sturm
   - name: Glen Liston
     position: Colorado State University
     img: glenliston.jpg
@@ -304,23 +306,23 @@ collaborators:
       - title: envelope #use for email address
         url: mailto:Glen.Liston at colostate.edu
   - name: Luis Samaniego
-    position: UFZ Helmholz Institute, Germany
-    img: default.jpg
+    position: UFZ Helmholtz Institute, Germany
+    img: samaniego.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-  - name: Olda Rakevic
-    position: UFZ Helmholz Institute, Germany
-    img: default.jpg
+      - title: link
+        url: https://www.ufz.de/index.php?en=38094
+  - name: Oldrich Rakovec
+    position: UFZ Helmholtz Institute, Germany
+    img: oldrichrakovec.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: link #use for email address
+        url: https://www.ufz.de/index.php?en=38114
   - name: Stephan Thober
-    position: UFZ Helmholz Institute, Germany
-    img: default.jpg
+    position: UFZ Helmholtz Institute, Germany
+    img: stephanthober.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: link #use for email address
+        url: https://www.ufz.de/index.php?en=38099
   - name: Idar Barstad
     position: Uni Research Computing, Norway
     text: Researcher
