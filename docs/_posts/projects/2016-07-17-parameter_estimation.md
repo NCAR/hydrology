@@ -12,7 +12,7 @@ factsheet2: mpr-flex_factsheet_2016_10.pdf
 thumb: mpr-flex.png
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Naoki Mizukami, Andrew Newman, Andy Wood, Ethan Gutmann"
-teamline2: "UFZ Helmholz Institute (Leipzig, Germany): Luis Samaniego, Olda Rakevic, Stephan Thober"
+teamline2: "UFZ Helmholtz Institute (Leipzig, Germany): Luis Samaniego, Oldrich Rakovec, Stephan Thober"
 teamline3: "U.S. Army Corps of Engineers: Jeff Arnold"
 teamline4: "Bureau of Reclamation: Levi Brekke"
 contacts: "Contact: Martyn Clark - mclark@ucar.edu | Julie Vano - jvano@ucar.edu"
