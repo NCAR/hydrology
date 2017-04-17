@@ -8,5 +8,5 @@ categories:
 - news
 ---
 
-This month Martyn Clark became the editor in chief for <i>Water Resources Research</i>, an American Geophysical Union journal that focuses on hydrology and water resources.  He was motivated to take the position so he could work to enhance the quality and impact of hydrologic science. Learn about his vision for more interdisciplinary and collaborative hydrology research <a href="https://eos.org/agu-news/incoming-editor-seeks-interdisciplinary-collaborative-research"> here</a>.  
+This month Martyn Clark became the editor in chief for <i>Water Resources Research</i>, an American Geophysical Union journal that focuses on hydrology and water resources.  Congrats Martyn!  Learn about his vision for more interdisciplinary and collaborative hydrology research <a href="https://eos.org/agu-news/incoming-editor-seeks-interdisciplinary-collaborative-research"> here</a>.  
 
