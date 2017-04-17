@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+
+            {{ content }}
+	    {% if page.img2 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img2 }}" alt="">{% endif %}
+	    {% if page.img3 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img3 }}" alt="">{% endif %}
+            {% if page.img4 %}<img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.img4 }}" alt="">{% endif %}
+
+        </div>
+
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Project Team</h4>
+            <div class="hline"></div>
+            <p>{{ page.teamline1 }}</p>
+            <p>{{ page.teamline2 }}</p>
+            {% if page.teamline3 %}<p>{{ page.teamline3 }}</p>{% endif %}
+            {% if page.teamline4 %}<p>{{ page.teamline4 }}</p>{% endif %}
+            {% if page.teamline5 %}<p>{{ page.teamline5 }}</p>{% endif %}
+            {% if page.teamline6 %}<p>{{ page.teamline6 }}</p>{% endif %}
+            {% if page.teamline7 %}<p>{{ page.teamline7 }}</p>{% endif %}
+            <p>{{ page.contacts }}</p>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Project Sponsors</h4>
+            <div class="hline"></div>
+            <p>{{ page.sponsors }}</p>
+	</div>
+
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>More Information</h4>
+            <div class="hline"></div> 
+	&nbsp
+	{% if page.modellink %} <p> Model information: &nbsp  <a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}
+	{% if page.projectlink %}<p> Project information:  &nbsp  <a href="{{ page.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ page.projectlink }}</a></p>{% endif %}
+
+	<p> Factsheets: &nbsp 
+        <!-- <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet1 }}"> 1-Pager</a> &nbsp -->
+        <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
+
+        <!-- if statements below are not ideal, should find way to add variable into assign--> 
+        {% if page.ref == "streamroute" %}{% assign posts = site.tags.paper_streamroute %}{% endif %}
+	{% if page.ref == "hydromodel" %}{% assign posts = site.tags.paper_hydromodel %}{% endif %}
+        {% if page.ref == "met" %}{% assign posts = site.tags.paper_met %}{% endif %}
+        {% if page.ref == "OCONUS" %}{% assign posts = site.tags.paper_OCONUS %}{% endif %}
+        {% if page.ref == "downscale" %}{% assign posts = site.tags.paper_downscale %}{% endif %}
+        {% if page.ref == "params" %}{% assign posts = site.tags.paper_params %}{% endif %}
+        {% if page.ref == "storylines" %}{% assign posts = site.tags.paper_storylines %}{% endif %}
+        {% if page.ref == "streamforecast" %}{% assign posts = site.tags.paper_streamforecast %}{% endif %}
+
+        {% if posts %} <p> Papers: </p> {% endif %}
+        {% include citationpaper.html %}
+
+        <!-- if statements below are not ideal, should find way to add variable into assign-->
+        {% if page.ref == "streamroute" %}{% assign posts = site.tags.dataset_streamroute %}{% endif %}
+        {% if page.ref == "hydromodel" %}{% assign posts = site.tags.dataset_hydromodel %}{% endif %}
+        {% if page.ref == "met" %}{% assign posts = site.tags.dataset_met %}{% endif %}
+        {% if page.ref == "OCONUS" %}{% assign posts = site.tags.dataset_OCONUS %}{% endif %}
+        {% if page.ref == "downscale" %}{% assign posts = site.tags.dataset_downscale %}{% endif %}
+        {% if page.ref == "params" %}{% assign posts = site.tags.dataset_params %}{% endif %}
+        {% if page.ref == "storylines" %}{% assign posts = site.tags.dataset_storylines %}{% endif %}
+        {% if page.ref == "streamforecast" %}{% assign posts = site.tags.dataset_streamforecast %}{% endif %}
+	
+	{% if posts %} <p> Datasets: </p> {% endif %}
+
+        {% include citationdata.html %}
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
+	 
+{% include portfolio.html title="Related Work" limit=10 %}

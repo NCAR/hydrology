@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+            <div class="spacing"></div>
+            {{ content }}
+        </div>
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div>
+            <h4>Projects related to this research </h4>
+            <div class="hline"></div>
+            <div id="portfoliowrap">
+                <div class="portfolio-centered">
+	            <div class="recentitems portfolio">
+
+                    <!-- if statements below are not ideal, should find way to add variable into assign-->		
+                    {% if page.ref == "hydro" %}
+                        {% for project in site.categories['theme_hydro'] limit:include.limit %}
+		            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "climate" %}
+                        {% for project in site.categories['theme_climate'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "stream" %}
+                        {% for project in site.categories['theme_stream'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "met" %}
+                        {% for project in site.categories['theme_met'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    </div><!-- portfolio -->
+                </div><!-- portfolio container -->
+            </div><!--/Portfoliowrap -->
+	
+        </div>
+
+        <!-- if statements below are not ideal, should find way to add variable into assign--> 
+        </div>
+
+            <div class="spacing"></div>
+            <h4>Models used in this research</h4>
+            <div class="hline"></div>
+
+            <div id="portfoliowrap">
+                <div class="portfolio-centered">
+                    <div class="recentitems portfolio">
+
+                    <!-- if statements below are not ideal, should find way to add variable into assign-->
+                    {% if page.ref == "hydro" %}
+                        {% for project in site.categories['mtheme_hydro'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "climate" %}
+                        {% for project in site.categories['mtheme_climate'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "stream" %}
+                        {% for project in site.categories['mtheme_stream'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% if page.ref == "met" %}
+                        {% for project in site.categories['mtheme_met'] limit:include.limit %}
+                            {% include projectbutton.html %}
+                        {% endfor %}
+                    {% endif %}
+
+                    </div><!-- portfolio -->
+                </div><!-- portfolio container -->
+            </div><!--/Portfoliowrap -->
+
+
+
+    </div><! --/row -->
+</div><! --/container -->
+	 
+{% include sponsors.html  %}
