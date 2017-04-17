@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+        <h4>Download data at <b></h4>
+        <a href="{{page.download}}"> {{ page.download }}</a></b>
+            <div class="spacing"></div>
+        <h4>Summary</h4>
+            {{ content }}
+            </div>
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div> 
+            <h4>Dataset Details</h4>
+            <div class="hline"></div>
+            <p>Release date: &nbsp {{ page.publicationyear }}{% if page.lastupdate %},&nbsp&nbsp last updated {{ page.lastupdate }} {% endif %} </p>
+            {% if page.versions %}<p>Versions: &nbsp {{ page.versions }}{% if page.status %},&nbsp&nbsp{{ page.status }} {% endif %}</p>{% endif %}
+            <p>Access information: &nbsp {{ page.access }}</p>
+            {% if page.ref %} <p> How to cite this resource: </p> {% endif %}
+            {% if page.ref == "CAMELS_attributes" %}{% assign posts = site.tags.dataset_CAMELS_attributes %}{% endif %}
+            {% if page.ref == "CAMELS_timeseries" %}{% assign posts = site.tags.dataset_CAMELS_timeseries %}{% endif %}
+            {% if page.ref == "BCSD" %}{% assign posts = site.tags.dataset_BCSD %}{% endif %}
+            {% if page.ref == "100ensemble" %}{% assign posts = site.tags.dataset_100ensemble %}{% endif %}
+            {% include citationdata.html %}
+
+            &nbsp
+            <h4>Dataset Attributes</h4>
+            <div class="hline"></div>
+            {% if page.format %}<p>Format and size: &nbsp {{ page.format }}</p>{% endif %}
+            {% if page.coverage %}<p>Coverage: &nbsp {{ page.coverage }}</p> {% endif %}
+            {% if page.coverage %}<p>Dataset details: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>{% endif %}
+            &nbsp
+
+            <h4>Development Team</h4>
+            <div class="hline"></div>
+            <p>{{ page.teamline1 }}</p>
+            <p>{{ page.teamline2 }}</p>
+            {% if page.teamline3 %}<p>{{ page.teamline3 }}</p>{% endif %}
+            {% if page.teamline4 %}<p>{{ page.teamline4 }}</p>{% endif %}
+            {% if page.teamline5 %}<p>{{ page.teamline5 }}</p>{% endif %}
+            {% if page.teamline6 %}<p>{{ page.teamline6 }}</p>{% endif %}
+            {% if page.teamline7 %}<p>{{ page.teamline7 }}</p>{% endif %}
+            <p>Contact: {{ page.contacts }}</p>
+            &nbsp
+            <h4>Sponsors</h4>
+            <div class="hline"></div>
+            <p>{{ page.sponsors }}</p>
+            &nbsp
+            <h4>More Information</h4>
+            <div class="hline"></div>
+	    {% if page.modellink %} <p> Model used: &nbsp  <a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}
+	    {% if page.projectlink %}<p> Related project information:  &nbsp  <a href="{{ page.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ page.projectlink }}</a></p>{% endif %}
+            {% if page.datasetlink %}<p> Related datasets:  &nbsp  <a href="{{ page.datasetlink | prepend: "/datasets/" | prepend: site.baseurl }}">{{ page.datasetlink }}</a></p>{% endif %}
+
+            <!-- if statements below are not ideal, should find way to add variable into assign--> 
+            {% if page.ref == "671basins" %}{% assign posts = site.tags.paper_671basins %}{% endif %}
+            {% if page.ref == "BCSD" %}{% assign posts = site.tags.paper_BCSD %}{% endif %}
+            {% if page.ref == "100ensemble" %}{% assign posts = site.tags.paper_100ensemble %}{% endif %}
+            {% if page.ref == "CAMELS_timeseries" %}{% assign posts = site.tags.paper_CAMELS_timeseries %}{% endif %}
+            {% if page.ref == "CAMELS_attributes" %}{% assign posts = site.tags.paper_CAMELS_attributes %}{% endif %}
+            {% if page.ref %} <p> Related Papers: </p> {% endif %}
+            {% include citationpaper.html %}
+	    &nbsp
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
