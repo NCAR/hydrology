@@ -2,7 +2,7 @@
 layout: dataset
 date: 2016-10-01 10:46:43
 publicationyear: 2014
-lastupdate:
+lastupdate: March 2016
 
 authorlist: "A. Newman, K. Sampson, M.P. Clark, A. Bock, and R.J. Viger, and D. Blodgett"
 fulltitle: "A large-sample watershed-scale hydrometeorological dataset for the contiguous USA"
