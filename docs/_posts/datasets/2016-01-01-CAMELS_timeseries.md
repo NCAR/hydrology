@@ -9,7 +9,7 @@ fulltitle: "A large-sample watershed-scale hydrometeorological dataset for the c
 location: "Boulder, CO"
 publisher: "UCAR/NCAR"
 download: http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
-versions: 1.0, 1.1, 1.2
+versions: 1.2
 lastestversion: 1.2
 status: available
 doi: "10.5065/D6MW2F4D"
