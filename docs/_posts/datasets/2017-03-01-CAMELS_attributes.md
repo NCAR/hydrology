@@ -27,13 +27,13 @@ format: ascii files
 coverage: 671 watersheds across contiguous US
 access: freely available at https://ral.ucar.edu/solutions/products/camels
 
-modellink: GMET
+modellink:
 projectlink: meteorological_datasets
 datasetlink: CAMELS_timeseries
 
 ref: CAMELS_attributes
 filename: CAMELS_attributes
-tags: [datasets,dataset_met, dataset_GMET, dataset_CAMELS_attributes]
+tags: [datasets, dataset_params, dataset_met, dataset_CAMELS_attributes]
 categories:
 - datasets
 ---
