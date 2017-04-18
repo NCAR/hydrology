@@ -33,7 +33,7 @@ projectlink:
 datasetlink: CAMELS_attributes
 
 ref: CAMELS_timeseries 
-filename:
+filename: CAMELS_timeseries
 
 tags: [datasets,dataset_params,dataset_streamforecast,dataset_CAMELS_timeseries]
 categories:
@@ -49,7 +49,7 @@ Figure 1 displays the location of each basin with the mean annual precipitation 
 
 Results indicate that the SNOW-17/SAC-SMA optimized model parameters perform quite well overall (Figures 2 and 3), with arid basins and basins along the high plains of the US generally having worse model performance (Fig 2).
 
-Finally, we have packaged all the basin metadata (shapefiles, locations, etc), hydrometeorological forcing data, streamflow data, model summary statistics, raw model output and model parameters in a large-sample basin scale hydrometeorolgical dataset that can be downloaded at the top of the page.
+Finally, we have packaged all the basin metadata (shapefiles, locations, etc), hydrometeorological forcing data, streamflow data, model summary statistics, raw model output and model parameters in a large-sample basin scale hydrometeorolgical dataset that can be downloaded using the link at the top of the page.
 
 <img src="{{ "/assets/img/datasets/671basins_fig2.png" | prepend: site.baseurl }}" class="img-responsive" height="100%" width="100%">
 
