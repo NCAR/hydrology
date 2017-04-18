@@ -45,7 +45,7 @@ Figure 1 displays the location of each basin with the mean annual precipitation 
 
 <img src="{{ "/assets/img/datasets/671basins_fig1.png" | prepend: site.baseurl }}" class="img-responsive" height="100%" width="100%">
 
- Following generation of the forcign data, we initially implemented the hydrologic model and calibration routine traditionally used by the NWS, the SNOW-17 and Sacramento soil moisture accounting (SAC-SMA) based hydrologic modeling system and the shuffled complex evolution (SCE) optimization approach (Duan et al. 1993).
+ Following generation of the forcing data, we initially implemented the hydrologic model and calibration routine traditionally used by the NWS, the SNOW-17 and Sacramento soil moisture accounting (SAC-SMA) based hydrologic modeling system and the shuffled complex evolution (SCE) optimization approach (Duan et al. 1993).
 
 Results indicate that the SNOW-17/SAC-SMA optimized model parameters perform quite well overall (Figures 2 and 3), with arid basins and basins along the high plains of the US generally having worse model performance (Fig 2).
 
