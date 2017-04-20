@@ -11,7 +11,8 @@ publisher: "UCAR/NCAR"
 download: https://ral.ucar.edu/solutions/products/camels
 versions: 1.0
 latestversion: 1.0
-status: "coming soon"
+status: available
+doi: 10.5065/D6G73C3Q 
 
 title: "CAMELS: Catchment Attributes for Large-Sample Studies"
 shortblurb: "This dataset extends the Large-Sample Hydrometeorological Dataset introduced by Newman et al. 2015 (link below) by characterizing a wide range of attributes for the same 671 catchments in the contiguous USA. The attributes include topographic characteristics, climate indices, hydrological signatures, as well as soil and vegetation attributes."
@@ -23,7 +24,7 @@ sponsors: U.S. Army Corps of Engineers
 paperdescribe: "Addor et al., HESSD, 2017"
 paperlink: http://dx.doi.org/10.5194/hess-2017-169
 
-format: ascii files
+format: ascii files, 219 KB
 coverage: 671 watersheds across contiguous US
 access: freely available at https://ral.ucar.edu/solutions/products/camels
 

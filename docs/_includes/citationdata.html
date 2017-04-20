@@ -3,8 +3,9 @@
         {% if post.latestversion %} version {{ post.latestversion }}. {% endif %}
         {% if post.location %} {{ post.location }}: {% endif %}
         {% if post.publisher %} {{ post.publisher }}. {% endif %}   
-	{% if post.download %} &nbsp<a href={{ post.download }}>{{ post.download }}</a>{% endif %}
-	</ul>
+	{% if post.doi %} doi:<a href=http://dx.doi.org/{{ post.doi }}>{{ post.doi }}</a>{% endif %}
+        {% if post.nodoi %} <a href={{ post.nodoi }}>{{ post.nodoi }}</a>{% endif %}
+</ul>
 &nbsp
 {% endfor %}
 
