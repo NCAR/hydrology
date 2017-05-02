@@ -25,7 +25,7 @@ body {
 	background: #ffffff;
 	margin: 0;
 	height: 100%;
-	color: #232b34;
+	color: #333333;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #232b34;
+	color: #333333;
 	margin-top: 10px;
 }
 
@@ -81,12 +81,12 @@ a:focus {
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:#232b34;
+	background:#333333;
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:#232b34;
+	background:#333333;
 }
 
 .centered {
@@ -118,21 +118,21 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #014f7e;
+	color: #0a75a1;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #014f7e;
+	color: #0a75a1;
 	background-color: transparent;
 }
 
 .navbar-default {
-	background-color: #232b34;
+	background-color: #333333;
 	border-color: transparent;
 }
 
 .dropdown-menu {
-	background: #232b34;
+	background: #333333;
 }
 
 .dropdown-menu > li > a {
@@ -143,8 +143,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #232b34;
-  border-color: #232b34;
+  background-color: #333333;
+  border-color: #333333;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -153,8 +153,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #014f7e;
-  border-color: #014f7e;
+  background-color: #0a75a1;
+  border-color: #0a75a1;
 }
 
 .dmbutton:hover,
@@ -210,7 +210,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #232b34;
+	border-bottom: 2px solid #333333;
 }
 
 .hline-w {
@@ -222,9 +222,9 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #014f7e;
+	background-color: #0a75a1;
 	min-height: 0px;
-	padding-top: 100px;
+	padding-top: 110px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -250,7 +250,7 @@ a:focus {
 }
 
 #service i {
-	color: #014f7e;
+	color: #0a75a1;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -298,14 +298,14 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#014f7e;
+	background-color:#0a75a1;
 	background-color:rgba(0,179,254,.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: #014f7e;
+    background-color: #0a75a1;
     background-color:rgba(0,179,254,.8);
     position: absolute;
     top: 0;
@@ -364,7 +364,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #232b34;
+	background: #333333;
 }
 
 #footerwrap p {
@@ -382,7 +382,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: #014f7e
+	color: #0a75a1
 }
 
 /*	################################################################
@@ -391,10 +391,10 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #014f7e;
-	margin-top: 60px;
+	background: #0a75a1;
+	margin-top: 0px;
 	margin-bottom: 60px;
-	padding-top: 25px;
+	padding-top: 110px;
 	padding-bottom: 25px;
 }
 
@@ -426,7 +426,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #014f7e;
+	color: #0a75a1;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -442,7 +442,7 @@ csmall {
 }
 
 .badge-theme {
-	background: #014f7e;
+	background: #0a75a1;
 }
 
 /* Contact Page */

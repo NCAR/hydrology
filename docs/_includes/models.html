@@ -9,7 +9,11 @@
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">{{ project.shorttitle }}</h3>
-                                <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a> 
+                                {% if project.ref == "ICAR" or project.ref == "SUMMA" %} 
+                                    <a href="{{ project.modelhomepage }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a> 
+                                {% else %}
+                                   <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a> 
+                                {% endif %} 
                                 <h5 class="a2" data-animate="fadeInUp">{{ project.tagline }}</h5>
                             </div><!-- he bg -->
                         </div><!-- he view -->		
