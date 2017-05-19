@@ -98,7 +98,7 @@ a:focus {
 ################################################################# */
 .navbar {
 	min-height: 70px;
-	padding-top: 10px;
+	padding-top: 0px;
 	margin-bottom: 0px;
 }
 
@@ -118,11 +118,11 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #0a75a1;
+	color: #ede132;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #0a75a1;
+	color: #ede132;
 	background-color: transparent;
 }
 
@@ -191,15 +191,16 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 .mtbc {
         margin-top: 20px;
         margin-bottom: 5px;
+        margin-left: 2px;
+        martin-right: 2 px;
 }
-
 
 .mb {
 	margin-bottom: 60px;
@@ -395,7 +396,7 @@ a:focus {
 	margin-top: 0px;
 	margin-bottom: 60px;
 	padding-top: 110px;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 }
 
 #blue h3 {
