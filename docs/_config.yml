@@ -6,7 +6,7 @@ groupname: Computational Hydrology
 description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate assessments depend."
 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: ''  #should be ok, if doesn't work try a /
+baseurl: /  #'' should be ok, if doesn't work try a /
 url: "https://ncar.github.io/Computational-Hydrology/"
 
 # Build settings
@@ -81,7 +81,7 @@ members:
         url: mailto:anewman at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/anewman
-  - name: Julie Vano
+  - name: Julie A Vano
     position: Project Scientist I
     text: connecting climate science and water resource applications
     img: julie.jpg
