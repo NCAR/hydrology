@@ -22,7 +22,7 @@ contacts: "Nans Addor | naddor@ucar.edu"
 sponsors: U.S. Army Corps of Engineers
 
 paperdescribe: "Addor et al., HESS, 2017"
-paperlink: http://dx.doi.org/10.5194/hess-2017-169
+paperlink: http://dx.doi.org/10.5194/hess-21-5293-2017
 
 format: ascii files, 1 MB
 coverage: 671 watersheds across contiguous US
