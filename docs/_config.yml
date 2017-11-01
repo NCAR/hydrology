@@ -245,13 +245,13 @@ collaborators:
     social:
       - title: link
         url: http://depts.washington.edu/mtnhydr/people/
-  - name: Michael Ou
+  - name: Andrew Bennett
     position: University of Washington
-    text: Postdoc
-    img: michaelou.jpg
+    text: PhD Candidate
+    img: andrewbennett.jpg
     social:
       - title: link
-        url: http://uw-hydro.github.io/current_member/michael_ou
+        url: http://uw-hydro.github.io/current_member/andrew_bennett
   - name: Rajagopalan Balaji
     position: University of Colorado Boulder
     text: Professor
