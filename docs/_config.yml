@@ -153,6 +153,16 @@ members:
         url: mailto:jhamman at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/jhamman
+  - name: Manabendra Saharia
+    position: Postdoctoral Researcher
+    text: 
+    img: manabendrasaharia.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:manab at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/manab
+
   - name: Kevin Sampson
     position: Associate Scientist III
     text:
