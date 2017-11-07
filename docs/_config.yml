@@ -6,7 +6,7 @@ groupname: Computational Hydrology
 description: "Research to improve the fundamental building blocks on which hydrometeorological analyses and climate assessments depend."
 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: /  #'' should be ok, if doesn't work try a /
+baseurl:   #'' should be ok, if doesn't work try a /
 url: "https://ncar.github.io/Computational-Hydrology/"
 
 # Build settings
