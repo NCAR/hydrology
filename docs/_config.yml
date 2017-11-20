@@ -90,15 +90,6 @@ members:
         url: mailto:jvano at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/jvano
-  - name: Grey Nearing
-    position: Project Scientist I
-    text: model evaluation, diagnostics, and uncertainty
-    img: greynearing.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:grey at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/browse/people/29259
   - name: Naoki Mizukami
     position: Associate Scientist III
     text: "large scale hydrologic modeling: applications, climate impacts"
@@ -108,33 +99,6 @@ members:
         url: mailto:mizukami at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/mizukami
-  - name: Pablo Mendoza
-    position: Postdoctoral Researcher
-    text: "hydrologic modeling applications: stream forecasting, climate change"
-    img: pablo.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:pmendoza at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/pmendoza
-  - name: Nans Addor
-    position: Postdoctoral Researcher
-    text: "hydrological modeling under present and future climate"
-    img: nans.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:naddor at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/browse/people/28687
-  - name: Keith Musselman
-    position: Postdoctoral Researcher
-    text: "observation and prediction of cold region hydrological processes"
-    img: keith.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:kmussel at ucar.edu
-      - title: link
-        url: http://www.keithmusselman.com
   - name: Flavio Lehner
     position: Postdoctoral Researcher
     text: "hydroclimatic changes and their implications for water resources"
@@ -276,6 +240,43 @@ collaborators:
     social:
       - title: envelope #use for email address
         url: mailto:sabaker at usbr.gov
+
+  - name: Grey Nearing
+    position: University of Alabama
+    text: model evaluation, diagnostics, and uncertainty
+    img: greynearing.jpg
+    social:
+      - title: link
+        url: https://geo.ua.edu/profile/dr-grey-nearing/
+
+  - name: Pablo Mendoza
+    position: Universidad de Chile
+    text: "hydrologic modeling applications: stream forecasting, climate change"
+    img: pablo.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:pablo.mendoza at amtc.uchile.cl
+
+  - name: Keith Musselman
+    position: University of Colorado Boulder
+    text: "observation and prediction of cold region hydrological processes"
+    img: keith.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:Keith.Musselman at Colorado.EDU
+      - title: link
+        url: http://www.keithmusselman.com
+
+  - name: Nans Addor
+    position: University of East Anglia
+    text: "hydrological modeling under present and future climate"
+    img: nans.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:naddor at ucar.edu
+      - title: link
+        url: https://www.researchgate.net/profile/Nans_Addor
+
   - name: ChengCheng Huang
     position: Beijing Normal University
     text: PhD Candidate
