@@ -100,7 +100,7 @@ members:
       - title: link
         url: https://staff.ucar.edu/users/mizukami
   - name: Flavio Lehner
-    position: Postdoctoral Researcher
+    position: Project Scientist I
     text: "hydroclimatic changes and their implications for water resources"
     img: flaviolehner.jpg
     social:
@@ -109,7 +109,7 @@ members:
       - title: link
         url: http://www.climate.unibe.ch/~lehner/
   - name: Joe Hamman
-    position: Postdoctoral Researcher
+    position: Project Scientist I
     text: "large scale hydrologic modeling of present and future climate"
     img: joehamman.jpg
     social:
