@@ -13,6 +13,14 @@ layout: default
     {% assign posts = site.tags.papersinreview %}
     {% include citationpaper.html %}
 
+    {% if site.tags.papers2019 %} <p><b>2019</b></p> {% endif %}
+    {% assign posts = site.tags.papers2019 %}
+    {% include citationpaper.html %}
+
+    {% if site.tags.papers2018 %} <p><b>2018</b></p> {% endif %}
+    {% assign posts = site.tags.papers2018 %}
+    {% include citationpaper.html %}
+
     {% if site.tags.papers2017 %} <p><b>2017</b></p> {% endif %}
     {% assign posts = site.tags.papers2017 %}
     {% include citationpaper.html %}
