@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Why is the Southwest Drier?"
+title: "Attributing climate trends in the U.S. Southwest"
 author: Julie Vano
 date: 2018-07-20 10:46:43
 tags: [news]
