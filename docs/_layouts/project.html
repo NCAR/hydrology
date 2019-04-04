@@ -50,6 +50,7 @@ layout: default
         <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
 
         <!-- if statements below are not ideal, should find way to add variable into assign--> 
+        {% if page.ref == "AIST" %}{% assign posts = site.tags.paper_AIST %}{% endif %}
         {% if page.ref == "streamroute" %}{% assign posts = site.tags.paper_streamroute %}{% endif %}
 	{% if page.ref == "hydromodel" %}{% assign posts = site.tags.paper_hydromodel %}{% endif %}
         {% if page.ref == "met" %}{% assign posts = site.tags.paper_met %}{% endif %}
@@ -63,6 +64,7 @@ layout: default
         {% include citationpaper.html %}
 
         <!-- if statements below are not ideal, should find way to add variable into assign-->
+        {% if page.ref == "AIST" %}{% assign posts = site.tags.dataset_AIST %}{% endif %}
         {% if page.ref == "streamroute" %}{% assign posts = site.tags.dataset_streamroute %}{% endif %}
         {% if page.ref == "hydromodel" %}{% assign posts = site.tags.dataset_hydromodel %}{% endif %}
         {% if page.ref == "met" %}{% assign posts = site.tags.dataset_met %}{% endif %}
