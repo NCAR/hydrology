@@ -42,12 +42,18 @@ layout: default
             <h4>More Information</h4>
             <div class="hline"></div> 
 	&nbsp
-	{% if page.modellink %} <p> Model information: &nbsp  <a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}
+	{% if page.modellink %} <p> Model information: </p>
+	<p>&nbsp &nbsp &nbsp &nbsp<a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}</p>
+        {% if page.modellink2 %}<p>&nbsp &nbsp &nbsp &nbsp<a href="{{ page.modellink2 | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink2 }}</a>{% endif %}
+        {% if page.modellink3 %}<p>&nbsp &nbsp &nbsp &nbsp<a href="{{ page.modellink3 | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink3 }}</a></p>{% endif %}
+        {% if page.outsidemodel %}<p>&nbsp &nbsp &nbsp &nbsp<a target="_blank" href={{page.outsidemodellink}}>{{ page.outsidemodel }}</a></p>{% endif %}
+
+
 	{% if page.projectlink %}<p> Project information:  &nbsp  <a href="{{ page.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ page.projectlink }}</a></p>{% endif %}
 
-	<p> Factsheets: &nbsp 
+	<p> Factsheets: &nbsp </p>
         <!-- <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet1 }}"> 1-Pager</a> &nbsp -->
-        <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
+        <p> &nbsp  &nbsp &nbsp  &nbsp <a href="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ page.factsheet2 }}">  2-Pager </a> (same info as this page)</p> 
 
         <!-- if statements below are not ideal, should find way to add variable into assign--> 
         {% if page.ref == "AIST" %}{% assign posts = site.tags.paper_AIST %}{% endif %}
