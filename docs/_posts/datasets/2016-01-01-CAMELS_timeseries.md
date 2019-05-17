@@ -19,7 +19,7 @@ shortblurb: "This dataset includes basin scale hydrometeorological forcing data 
 
 format: "ascii files, 15 GB compressed, roughly 130 GB uncompressed"
 coverage: 671 watersheds across contiguous USA
-access: freely available at http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
+access: freely available at https://ral.ucar.edu/solutions/products/camels
 paperdescribe: Newman et al., HESS, 2015
 paperlink: http://dx.doi.org/10.5194/hess-19-209-2015
 
