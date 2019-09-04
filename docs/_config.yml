@@ -45,15 +45,6 @@ address:
 
 # Members information. Shown on About page.
 members:
-  - name: Martyn Clark
-    position: Lead, Senior Scientist
-    text: "numerical modeling and prediction of hydrologic processes"
-    img: martyn.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:mclark at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/mclark
   - name: Andy Wood
     position: Lead, Project Scientist III
     text: "hydrologic modeling applications: stream forecasting, climate change"
@@ -81,15 +72,6 @@ members:
         url: mailto:anewman at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/anewman
-  - name: Julie Vano
-    position: Project Scientist I
-    text: connecting climate science and water resource applications
-    img: julie.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:jvano at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/jvano
   - name: Naoki Mizukami
     position: Associate Scientist III
     text: "large scale hydrologic modeling: applications, climate impacts"
@@ -99,6 +81,15 @@ members:
         url: mailto:mizukami at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/mizukami
+  - name: Julie Vano
+    position: Project Scientist I
+    text: connecting climate science and water resource applications
+    img: julie.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:jvano at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/jvano
   - name: Flavio Lehner
     position: Project Scientist I
     text: "hydroclimatic changes and their implications for water resources"
@@ -117,6 +108,24 @@ members:
         url: mailto:jhamman at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/jhamman
+  - name: Trude Eidhammer
+    position: Project Scientist II
+    text:
+    img: trudeeidhammer.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:trude at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/trude  
+
+  - name: Manuela Brunner
+    position: Postdoctoral Researcher
+    text:
+    img: manuelabrunner.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:manuela.i.brunner at gmail.com
+
   - name: Manabendra Saharia
     position: Postdoctoral Researcher
     text: 
@@ -136,24 +145,6 @@ members:
         url: mailto:ksampson at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/ksampson
-  - name: Andrew Monaghan
-    position: Scientist III
-    text:
-    img: andymonaghan.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:monaghan at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/monaghan
-  - name: Trude Eidhammer
-    position: Project Scientist II
-    text:
-    img: trudeeidhammer.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:trude at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/trude
   - name: Lulin Xue
     position: Project Scientist II
     text:
@@ -205,6 +196,18 @@ collaborators:
         url: mailto:nijssen at uw.edu
       - title: link
         url: http://uw-hydro.github.io/current_member/bart_nijssen
+  - name: Martyn Clark
+    position: University of Saskatchewan
+    text: "numerical modeling and prediction of hydrologic processes"
+    img: martyn.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:martyn.clark at usask.ca
+      - title: link
+        url: https://artsandscience.usask.ca/profile/MClark#/profile
+
+
+
   - name: Elizabeth Clark
     position: University of Washington
     text: PhD Candidate
