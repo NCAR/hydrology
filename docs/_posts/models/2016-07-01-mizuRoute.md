@@ -10,6 +10,7 @@ categories:
 img: mizuRoute.jpg
 img2: mizuRoute.png
 projectlink: streamflow_routing
+modelhomepage: https://ral.ucar.edu/projects/mizuroute-stand-alone-river-network-routing-model
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation
 teamline1: "NCAR: Martyn Clark (PI), Naoki Mizukami"
 teamline2: "University of Washington: Bart Nijssen"

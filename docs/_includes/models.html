@@ -9,7 +9,7 @@
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">{{ project.shorttitle }}</h3>
-                                {% if project.ref == "ICAR" or project.ref == "SUMMA" %} 
+                                {% if project.ref == "ICAR" or project.ref == "SUMMA" or project.ref == "mizuRoute"  %} 
                                     <a href="{{ project.modelhomepage }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a> 
                                 {% else %}
                                    <a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a> 
