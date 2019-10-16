@@ -98,7 +98,9 @@ members:
       - title: envelope #use for email address
         url: mailto:flehner at ucar.edu
       - title: link
-        url: http://www.climate.unibe.ch/~lehner/
+        url: https://flaviolehner.wordpress.com/
+      - title: twitter
+        url: https://twitter.com/ClimateFlavors
   - name: Joe Hamman
     position: Project Scientist I
     text: "large scale hydrologic modeling of present and future climate"
@@ -116,7 +118,7 @@ members:
       - title: envelope #use for email address
         url: mailto:trude at ucar.edu
       - title: link
-        url: https://staff.ucar.edu/users/trude  
+        url: https://staff.ucar.edu/users/trude
 
   - name: Manuela Brunner
     position: Postdoctoral Researcher
@@ -128,7 +130,7 @@ members:
 
   - name: Manabendra Saharia
     position: Postdoctoral Researcher
-    text: 
+    text:
     img: manabendrasaharia.jpg
     social:
       - title: envelope #use for email address
