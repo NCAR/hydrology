@@ -124,6 +124,15 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:manuela.i.brunner at gmail.com
+  - name: Roy Rasmussen
+    position: Senior Scientist Section Head
+    text:
+    img: roy.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:rasmus at ucar.edu
+      - title: link
+        url: https://staff.ucar.edu/users/rasmus
   - name: Kevin Sampson
     position: Associate Scientist III
     text:
@@ -142,15 +151,6 @@ members:
         url: mailto:xuel at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/xuel
-  - name: Roy Rasmussen
-    position: Senior Scientist Section Head
-    text:
-    img: roy.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:rasmus at ucar.edu
-      - title: link
-        url: https://staff.ucar.edu/users/rasmus
 
 
 # Collaborator information. Shown on About page.
