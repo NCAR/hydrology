@@ -120,10 +120,17 @@ members:
   - name: Manuela Brunner
     position: Postdoctoral Researcher
     text: "Statistical hydrology and extremes"
-    img: manuelabrunner.jpg
+    img: ryancurrier.jpg
     social:
       - title: envelope #use for email address
         url: mailto:manuela.i.brunner at gmail.com
+#   - name: Manuela Brunner
+#     position: Postdoctoral Researcher
+#     text: "Statistical hydrology and extremes"
+#     img: manuelabrunner.jpg
+#     social:
+#       - title: envelope #use for email address
+#         url: mailto:manuela.i.brunner at gmail.com
   - name: Roy Rasmussen
     position: Senior Scientist Section Head
     text:
