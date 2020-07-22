@@ -103,22 +103,20 @@ members:
         url: https://staff.ucar.edu/users/jhamman
   - name: Trude Eidhammer
     position: Project Scientist II
-    text:
+    text: "Regional climate, snow, and glacier modeling"
     img: trudeeidhammer.jpg
     social:
       - title: envelope #use for email address
         url: mailto:trude at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/trude
-
   - name: Manuela Brunner
     position: Postdoctoral Researcher
-    text:
+    text: "Statistical hydrology and extremes"
     img: manuelabrunner.jpg
     social:
       - title: envelope #use for email address
         url: mailto:manuela.i.brunner at gmail.com
-
   - name: Kevin Sampson
     position: Associate Scientist III
     text:
@@ -128,7 +126,6 @@ members:
         url: mailto:ksampson at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/ksampson
-        
   - name: Lulin Xue
     position: Project Scientist II
     text:
@@ -138,7 +135,6 @@ members:
         url: mailto:xuel at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/xuel
-        
   - name: Roy Rasmussen
     position: Senior Scientist Section Head
     text:
@@ -213,7 +209,6 @@ collaborators:
     social:
       - title: link
         url: http://uw-hydro.github.io/current_member/andrew_bennett
-
   - name: Elizabeth Clark
     position: University of Washington
     text: PhD Candidate
@@ -235,7 +230,6 @@ collaborators:
     social:
       - title: envelope #use for email address
         url: mailto:sabaker at usbr.gov
-
   - name: Grey Nearing
     position: University of Alabama
     text: model evaluation, diagnostics, and uncertainty
@@ -243,7 +237,6 @@ collaborators:
     social:
       - title: link
         url: https://geo.ua.edu/profile/dr-grey-nearing/
-
   - name: Pablo Mendoza
     position: Universidad de Chile
     text: "hydrologic modeling applications: stream forecasting, climate change"
@@ -251,7 +244,6 @@ collaborators:
     social:
       - title: envelope #use for email address
         url: mailto:pablo.mendoza at amtc.uchile.cl
-
   - name: Keith Musselman
     position: University of Colorado Boulder
     text: "observation and prediction of cold region hydrological processes"
@@ -261,7 +253,6 @@ collaborators:
         url: mailto:Keith.Musselman at Colorado.EDU
       - title: link
         url: http://www.keithmusselman.com
-
   - name: Nans Addor
     position: University of East Anglia
     text: "hydrological modeling under present and future climate"
@@ -271,7 +262,6 @@ collaborators:
         url: mailto:naddor at ucar.edu
       - title: link
         url: https://www.researchgate.net/profile/Nans_Addor
-
   - name: ChengCheng Huang
     position: Beijing Normal University
     text: PhD Candidate
