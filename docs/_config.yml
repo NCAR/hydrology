@@ -190,8 +190,8 @@ collaborators:
         url: mailto:martyn.clark at usask.ca
       - title: link
         url: https://artsandscience.usask.ca/profile/MClark#/profile
-  - name: Julie Vano		
-    position: Research Director: Aspen Global Change Institute	
+  - name: Julie Vano
+    position: "Research Director: Aspen Global Change Institute"
     text: connecting climate science and water resource applications		
     img: julie.jpg		
     social:		
@@ -228,13 +228,6 @@ collaborators:
     social:
       - title: link
         url: http://www.colorado.edu/ceae/rajagopalan-balaji
-#   - name: James Prairie
-#     position: US Bureau of Reclamation
-#     text: Researcher
-#     img: jimprairie.jpg
-#     social:
-#       - title: envelope #use for email address
-#         url: mailto:sabaker at usbr.gov
   - name: Sarah Baker
     position: US Bureau of Reclamation
     text: Researcher
