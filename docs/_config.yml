@@ -103,13 +103,20 @@ members:
         url: https://staff.ucar.edu/users/jhamman
   - name: Trude Eidhammer
     position: Project Scientist II
-    text: "Regional climate, snow, and glacier modeling"
+    text: "Regional climate, snow, and microphysics"
     img: trudeeidhammer.jpg
     social:
       - title: envelope #use for email address
         url: mailto:trude at ucar.edu
       - title: link
         url: https://staff.ucar.edu/users/trude
+  - name: William "Ryan" Currier
+    position: Postdoctoral Researcher
+    text: "Climate change and mountain snowpack"
+    img: ryancurrier.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:currierw at ucar.edu
   - name: Manuela Brunner
     position: Postdoctoral Researcher
     text: "Statistical hydrology and extremes"
